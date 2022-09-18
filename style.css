@@ -15,19 +15,22 @@ main {
     display:flex;
     width:750px;
     height:300px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: hsl(244, 38%, 16%);
     color:white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .img {
     width:375px;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 5px 5px 0;
+    
     
 }
 
+
 .text {
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     margin:50px;
@@ -36,18 +39,32 @@ main {
     
 }
 .para {
-    font-size: 12.5px;;
+    font-size: 12.5px;
+    color:hsla(0, 0%, 100%, 0.75);
 }
 .title {
     font-size: 25px;
     margin-bottom:15px;
+    color:hsl(0, 0%, 100%);
+}
+span {
+    color:hsl(277, 64%, 61%);
 }
 .footer {
-    border:1px solid white;
     height:75px;
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-right:20px;
+    margin-right:25px;
+    text-transform: uppercase;
     
+    
+}
+
+.words {
+    font-size: 10px;
+    color:hsla(0, 0%, 100%, 0.6);
+}
+.number {
+    color:hsl(0, 0%, 100%);
 }
