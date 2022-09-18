@@ -35,5 +35,6 @@ main {
     flex-direction: column;
     flex-wrap: none;
     margin:25px;
+    font-family: 'Inter', sans-serif;
     
 }
