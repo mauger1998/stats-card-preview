@@ -11,6 +11,8 @@ main {
     align-items: center;
 }
 .card {
+    display:flex;
+    flex-direction: row-reverse;
     border:1px solid black;
     width:75vw;
     height:40vh;
