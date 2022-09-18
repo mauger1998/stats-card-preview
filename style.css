@@ -5,7 +5,6 @@
 
 
 main {
-    border:1px solid black;
     height:100vh;
     display:flex;
     justify-content: center;
@@ -18,7 +17,6 @@ main {
     height:300px;
     border-radius: 10px;
     background-color: hsl(244, 38%, 16%);
-    flex-basis:auto;
     color:white;
 }
 
@@ -27,22 +25,27 @@ main {
     border-radius: 0 10px 10px 0;
     
 }
-.footer {
-    border:1px solid white;
-    height:250px;
-    display:flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
+
 .text {
     border: 1px solid white;
     display: flex;
     flex-direction: column;
-    flex-wrap: none;
     margin:50px;
     font-family: 'Inter', sans-serif;
     
 }
 .para {
-    font-size: 15px;;
+    font-size: 12.5px;;
+}
+.title {
+    font-size: 25px;
+    margin-bottom:20px;
+}
+.footer {
+    border:1px solid white;
+    height:85px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right:20px;
 }
