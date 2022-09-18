@@ -3,23 +3,30 @@
     padding:0;
 }
 
+
 main {
     border:1px solid black;
     height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color:hsl(233, 47%, 7%);
 }
 .card {
     display:flex;
-    flex-direction: row-reverse;
-    border:1px solid black;
-    width:75vw;
+    width:80vw;
     height:40vh;
     border-radius: 10px;
+    background-color: hsl(244, 38%, 16%);
+    flex-basis:auto;
+    color:white;
 }
 
 .img {
-    width:37.5vw;
+    width:40vw;
     border-radius: 0 10px 10px 0;
+    
+}
+.footer {
+    display:flex;
 }
