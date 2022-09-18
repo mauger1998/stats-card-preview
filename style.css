@@ -28,9 +28,14 @@ main {
     
 }
 .footer {
+    border:1px solid white;
+    height:250px;
     display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .text {
+    border: 1px solid white;
     display: flex;
     flex-direction: column;
     flex-wrap: none;
