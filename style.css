@@ -34,7 +34,10 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: none;
-    margin:25px;
+    margin:50px;
     font-family: 'Inter', sans-serif;
     
+}
+.para {
+    font-size: 15px;;
 }
